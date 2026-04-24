@@ -5,7 +5,7 @@ import streamlit as st
 
 sns.set(style='darkgrid')  
 
-df = pd.read_csv("main_data.csv")  
+df = pd.read_csv("dashboard/main_data.csv")
 df["date"] = pd.to_datetime(df["date"])  
 
 st.title("Bike Sharing Dashboard")
